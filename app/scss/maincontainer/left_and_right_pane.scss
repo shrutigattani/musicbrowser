@@ -1,0 +1,123 @@
+section#mb-main-content {
+  padding-left: 130px;
+  padding-top:80px;
+  .mb-left-block{
+    border-right: solid 2px #626262;
+  .mb-tile-row {
+    //padding-bottom: 50px;
+    .mb-tile {
+      height: 320px;
+      width: 410px;
+      background: url('/app/images/rectangle_tile_bg.png') no-repeat center;
+
+      .mb-tile-text-wrap {
+        position: absolute;
+        bottom: 0;
+        .mb-text-primary {
+          color: #ffffff;
+          font-size: 21px;
+          font-weight: 400;
+          line-height: 36px;
+          padding: 10px 15px 5px 15px;
+        }
+        .mb-text-secondary {
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 2px;
+          padding: 0 15px;
+          margin-bottom: 20px;
+        }
+      }
+      &.first-block {
+        background: url('/app/images/photo-1.png') no-repeat center;
+
+      }
+      &.second-block {
+        background: url('/app/images/photo-2.png') no-repeat center;
+      }
+      &.third-block {
+        background: url('/app/images/photo-3.png') no-repeat center;
+
+      }
+      &.fourth-block {
+        background: url('/app/images/photo-4.png') no-repeat center;
+
+      }
+    }
+  }
+  }
+  .mb-right-block {
+     padding-left: 50px;
+    .mb-aside {
+      .mb-rt-image{
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .mb-rt-heading {
+        color: #ffffff;
+
+      }
+    }
+  }
+}
+.mb-rt-image{
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 20px 0;
+}
+
+.mb-img-circle{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+
+.mb-tile:last-child{
+    padding-bottom: 0;
+  }
+
+
+.mb-album-name{
+  color: #ffff00;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding: 25px 5px 0 15px;
+}
+
+.mb-album-owner{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding: 5px 15px 0 15px;
+}
+
+.mb-rt-heading { //text color and size for aside heading.
+  color: #ffffff;
+  font-size: medium;
+}
+
+.mb-btn-see-less{
+  display:none;
+  background: #ffff00;
+  border-radius: 30%;
+  width: 80px;
+  height: 20px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+//For small devices top padding should be less
+@media screen and (max-width : 760px){
+  section#mb-main-content{
+    padding-top: 0;
+  }
+  .mb-btn-see-less{
+    display:block;
+  }
+
+}

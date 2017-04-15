@@ -1,0 +1,13 @@
+@import './variables/mb_variables';  //Variables like fontsize, fontfamily, etc.
+
+@import './common/essentials'; //All basic essential scss code
+
+@import './common/flexbox_grid'; //Using flexbox gives the flexibility to make the 12 grid system for responsive design.
+
+@import './common/util'; //Utility classes
+
+@import './header/header'; //header component classes for navigation
+
+@import './maincontainer/left_and_right_pane'; //The page divided into main content as right pane and list as left pane
+
+@import './footer/footer'; //Footer classes

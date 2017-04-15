@@ -1,0 +1,121 @@
+
+header{
+  nav{
+    ul.mb-hdr-nav-list{
+      height: 60px;
+      text-align: center;
+      margin:0 auto;
+      li.mb-hdr-nav-item{
+        float:left;
+        a.mb-hdr-nav-link{
+          color: #ffffff;
+          padding:10px 15px;
+          text-transform: uppercase;
+          text-decoration: none;
+          &:hover{
+            text-decoration-line: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+header{
+  font-size: medium;
+}
+
+.navbar{
+  height:60px;
+  background: url('/app/images/navbar_bg.png') no-repeat center;
+  text-align: center;
+}
+
+.mb-hdr-search{
+  width:25px;
+  height:25px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.mb-icon-search img{
+  max-width: 100%;
+  max-height: 100%;
+  overflow:hidden;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.mb-show-menu {
+  display: none;
+}
+/*Hide dropdown links until they are needed*/
+li ul {
+  display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+  display: block;
+  float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+
+
+@media screen and (max-width : 760px){
+  /*Make dropdown links appear inline*/
+  ul {
+    position: static;
+    display: none;
+  }
+  /*Create vertical spacing*/
+  li {
+    margin-bottom: 1px;
+  }
+  /*Make all menu links full width*/
+  ul li, li a {
+    width: 100%;
+  }
+  /*Display 'show menu' link*/
+  .mb-show-menu {
+    display:block;
+  }
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+  display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #mb-nav-menu{
+  display: block;
+  .mb-hdr-search{
+    display: none;
+  }
+}
+
+.mb-nav-bar1, .mb-nav-bar2, .mb-nav-bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .mb-nav-bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .mb-nav-bar2 {opacity: 0;}
+
+.change .mb-nav-bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}

@@ -1,0 +1,229 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Music Browser</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="app/css/mb.css">
+</head>
+
+
+<!-- Application content -->
+
+<body>
+<header .padding-hor-clear padding-ver-clear> <!-- Defining the header section of the page with the appropriate tag -->
+
+    <nav class="navbar"> <!-- The nav link semantically marks your main site navigation -->
+        <div class="grid padding-hor-clear padding-ver-clear grid--direction-row">
+
+            <div class="grid__col-md-12  grid__col-xs-12  grid--align-content-center">
+
+                <label for="mb-show-menu" class="mb-show-menu">
+                    <div class="mb-nav-bar" onclick="myFunction(this)">
+                    <div class="mb-nav-bar1"></div>
+                    <div class="mb-nav-bar2"></div>
+                    <div class="mb-nav-bar3"></div>
+                    </div>
+                </label>
+                <input type="checkbox" id="mb-show-menu" role="button">
+
+                <ul id="mb-nav-menu" class="mb-hdr-nav-list">
+                    <li class="mb-hdr-nav-item"><a href="#article1" class="mb-hdr-nav-link">MY MUSIC</a></li>
+                    <li class="mb-hdr-nav-item"><a href="#article2" class="mb-hdr-nav-link">playlist</a></li>
+                    <li class="mb-hdr-nav-item"><a href="#article3" class="mb-hdr-nav-link">new</a></li>
+                    <li class="mb-hdr-nav-item"><a href="article4" class="mb-hdr-nav-link">explore</a></li>
+                    <li class="mb-hdr-nav-item">
+                        <div class="mb-hdr-search">
+                        <a href="#search" class="mb-hdr-nav-link mb-icon-search"><img src="/app/images/search.png")></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+<section id="mb-main-content" class="grid grid--direction-row padding-hor-clear padding-ver-clear">
+    <div class="mb-left-block grid__col-md-8 grid__col-xs-12 padding-hor-clear padding-ver-clear">
+        <div class="grid  grid--direction-row padding-hor-clear padding-ver-clear mb-tile-row">
+            <div class="grid__col-auto">
+                <div class="mb-tile first-block">
+                    <div class="mb-tile-text-wrap">
+                        <p class="mb-text-primary">
+                            New and Noteworthy
+                        </p>
+                        <p class="mb-text-secondary">
+                            Kicking off 2016 with these new hits
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__col-auto">
+                <div class="mb-tile second-block">
+                    <div class="mb-tile-text-wrap">
+                        <p class="mb-text-primary">
+                            Pre-Order New Music
+                        </p>
+                        <p class="mb-text-secondary">
+                            Available later this season
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear mb-tile-row">
+            <div class="grid__col-auto">
+                <div class="mb-tile third-block">
+                    <div class="mb-tile-text-wrap">
+                        <p class="mb-text-primary">
+                            Best of 2015
+                        </p>
+                        <p class="mb-text-secondary">
+                            Rewind last year’s best hits
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__col-auto">
+                <div class="mb-tile fourth-block">
+                    <div class="mb-tile-text-wrap">
+                        <p class="mb-text-primary">
+                            New Artist Spotlight
+                        </p>
+                        <p class="mb-text-secondary">
+                            Hear some of the newest hits in 2016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-right-block grid__col-md-4 grid--align-content-center padding-hor-clear padding-ver-clear">
+        <aside class="mb-aside padding-hor-clear padding-ver-clear">
+        <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear">
+        <div class="grid__col-md-8  grid__col-xs-6  grid--align-content-center">
+            <div class="mb-rt-heading">TOP SONGS</div>
+        </div>
+        </div>
+
+        <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear">
+            <div class="grid__col-md-3  grid__col-xs-2  grid--align-content-center padding-hor-clear padding-ver-clear">
+                <div class="mb-rt-image">
+                    <div class="grid__col--bg mb-icon-image1"><img class="mb-img-circle" src="app/images/Cf9BBh3UUAAwFen.jpg" alt="img1"></div>
+            </div>
+            </div>
+             <div class="grid__col-auto grid--align-content-start">
+                 <div class="mb-album-name">Panda</div>
+                 <div class="mb-album-owner">Desiigner</div>
+
+             </div>
+        </div>
+
+            <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear">
+                <div class="grid__col-md-3  grid__col-xs-2  grid--align-content-center padding-hor-clear padding-ver-clear">
+                    <div class="mb-rt-image">
+                        <div class="grid__col--bg mb-icon-image2"><img class="mb-img-circle" src="app/images/ba2ab7af63b0074eaefbf0a0108eff2e.600x600x1.jpg" alt="img1"></div>
+                    </div>
+                </div>
+                <div class="grid__col-auto grid--align-content-start">
+                    <div class="mb-album-name">Needed Me</div>
+                    <div class="mb-album-owner">Rihanna</div>
+
+                </div>
+            </div>
+
+
+            <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear">
+                <div class="grid__col-md-3  grid__col-xs-2  grid--align-content-center padding-hor-clear padding-ver-clear">
+                    <div class="mb-rt-image">
+                        <div class="grid__col--bg mb-icon-image3"><img class="mb-img-circle" src="app/images/cover600x600.jpeg" alt="img1"></div>
+                    </div>
+                </div>
+                <div class="grid__col-auto grid--align-content-start">
+                    <div class="mb-album-name">Panda</div>
+                    <div class="mb-album-owner">Desiigner</div>
+
+                </div>
+            </div>
+
+            <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear">
+                <div class="grid__col-md-3  grid__col-xs-2  grid--align-content-center padding-hor-clear padding-ver-clear">
+                    <div class="mb-rt-image">
+                        <div class="grid__col--bg mb-icon-image4"><img class="mb-img-circle" src="app/images/lukas-graham.jpg" alt="img1"></div>
+                    </div>
+                </div>
+                <div class="grid__col-auto grid--align-content-start">
+                    <div class="mb-album-name">Panda</div>
+                    <div class="mb-album-owner">Desiigner</div>
+
+                </div>
+            </div>
+
+
+            <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear">
+                <div class="grid__col-md-3  grid__col-xs-2  grid--align-content-center padding-hor-clear padding-ver-clear">
+                    <div class="mb-rt-image">
+                        <div class="grid__col--bg mb-icon-image5"><img class="mb-img-circle" src="app/images/ba2ab7af63b0074eaefbf0a0108eff2e.600x600x1.jpg" alt="img1"></div>
+                    </div>
+                </div>
+                <div class="grid__col-auto grid--align-content-start">
+                    <div class="mb-album-name">Panda</div>
+                    <div class="mb-album-owner">Desiigner</div>
+
+                </div>
+            </div>
+
+
+            <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear">
+                <div class="grid__col-md-3  grid__col-xs-2  grid--align-content-center padding-hor-clear padding-ver-clear">
+                    <div class="mb-rt-image">
+                        <div class="grid__col--bg  mb-icon-image6"><img class="mb-img-circle" src="app/images/Mike-Posner-I-Took-A-Pill-In-Ibiza-artwork.jpg" alt="img1"></div>
+                    </div>
+                </div>
+                <div class="grid__col-auto grid--align-content-start">
+                    <div class="mb-album-name">Panda</div>
+                    <div class="mb-album-owner">Desiigner</div>
+
+                </div>
+            </div>
+            <div class="grid grid--direction-row  padding-hor-clear padding-ver-clear">
+                <div class="grid__col-12 grid--align-content-center">
+                <div class="mb-btn-see-less">See Less</div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+
+    <div class="footerbox">
+        <footer>
+            <div class="grid padding-hor-clear padding-ver-clear grid--direction-row">
+                <div class="grid__col-md-5  grid__col-xs-12  grid--align-content-center">
+
+                    <div class="mb-copyright">Copyright @ 2016, ALL RIGHTS RESERVED.</div>
+                </div>
+                <div class="grid__col-md-7  grid__col-xs-12  grid--align-content-center">
+
+                <div class=mb-footer-links>
+            <div class="mb-links"><a href="#">CONTACT US</a></div>
+                    <div class="mb-links"><a href="#">PRIVACY & COOKIES</a></div>
+                    <div class="mb-links"><a href="#">TERMS OF USE</a></div>
+                    <div class="mb-links"><a href="#">SALES AND REFUNDS</a></div>
+                    <div class="mb-links"><a href="#">SITE MAP</a></div>
+
+        </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<script src="app/js/app.js"></script>
+</body>
+</html>

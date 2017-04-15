@@ -1,0 +1,22 @@
+{
+  "name": "musicbrowser",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Shruti"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./lib/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cssreset": "^1.0.0"
+  }
+}

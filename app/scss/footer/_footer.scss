@@ -1,0 +1,33 @@
+.mb-copyright{
+  color: #ffffff;
+  margin: 0 0 0 280px;
+  display: inline-block;
+}
+
+.mb-footer-links a{
+  color: #ffff00;
+  text-decoration: none;
+  padding:0 15px 15px 0;
+  text-transform: uppercase;
+  //display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mb-links{
+  text-align: center;
+  display:inline-block;
+}
+
+
+//For smaller devices footer links should come block wise and centered.
+@media screen and (max-width : 760px){
+  .mb-copyright{
+    display: block;
+    margin: 0 auto;
+  }
+  .mb-links{
+    display: block;
+    margin: 0 auto;
+  }
+}
